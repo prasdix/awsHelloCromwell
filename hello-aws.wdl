@@ -11,7 +11,7 @@ task hello {
   }
 }
 
-workflow updatedName {
+workflow wf_hello {
   call hello
 
   output {
