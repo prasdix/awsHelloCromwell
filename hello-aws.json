@@ -1,3 +1,6 @@
 {
-    "wf_hello.hello.addressee": "World!"
+    "wf_hello.task1.addressee": "World!",
+    "wf_hello.task2.addressee": "World!",
+    "wf_hello.task3.addressee": "World!",
+    "wf_hello.task4.addressee": "World!",
 }
