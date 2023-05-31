@@ -7,7 +7,7 @@ task task1 {
     String message = read_string(stdout())
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "alpine:latest"
   }
 }
 
@@ -20,7 +20,7 @@ task task2 {
     String message = read_string(stdout())
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "alpine:latest"
   }
 }
 
@@ -33,7 +33,7 @@ task task3 {
     String message = read_string(stdout())
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "alpine:latest"
   }
 }
 
@@ -46,7 +46,7 @@ task task4 {
     String message = read_string(stdout())
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "alpine:latest"
   }
 }
 
